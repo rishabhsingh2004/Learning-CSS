@@ -1,0 +1,17 @@
+:root{
+    --box-color:blue;
+    --box1-color:red;
+}
+
+.box{
+    --box-color:blue;
+    width: 200px;
+    height: 200px;
+    background-color: var(--box-color);
+    border: 2px solid var(--box1-color);
+    box-shadow:14px 14px  10px var(--box1-color);
+}
+
+.container{
+    display: flex;
+}

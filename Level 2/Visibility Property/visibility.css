@@ -1,0 +1,9 @@
+.box{height: 50px;
+width: 50px;}
+#box1{height: 50px;
+width: 50px;
+background-color: blue;
+visibility: hidden;}
+#box2{height: 50px;
+width: 50px;
+background-color: red;}

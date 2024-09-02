@@ -1,0 +1,30 @@
+
+#box{
+    height: 75px;
+    width: 75px;
+    border: 2px solid black;
+    border-radius: 5px;
+   display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 65px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+.box1{background-color: aqua;}
+.box1:hover{transform: rotate(45deg);}
+
+.box2{background-color: blueviolet;}
+.box2:hover{ transform: rotate(180deg);}
+
+.box3{background-color: chartreuse;}
+.box3:hover{transform: rotateX(45deg);}
+
+.box4{background-color: brown;}
+.box4:hover{transform: rotatey(45deg);}
+
+.box5{background-color: gold;}
+.box5:hover{transform: rotate3d(44,80,9,180deg);}

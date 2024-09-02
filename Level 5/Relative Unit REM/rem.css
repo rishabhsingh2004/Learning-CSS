@@ -1,0 +1,14 @@
+*{margin: 0; padding: 0;
+    font-size: 50px;}
+
+#first{background-color: black;
+color: white;
+height: 200px;
+width: 300px;
+font-size: 15px;}
+
+#second{background-color: aqua;
+    color: black;
+height: 60%;
+width: 50%;
+font-size: 0.5rem;}

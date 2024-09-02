@@ -1,0 +1,12 @@
+body{ font-size: 100px;}
+
+#first{background-color: aqua;
+height: 200px;
+width: 300px;
+font-size: 30px;}
+
+
+#second{background-color: purple;
+height: 50%;
+width: 70%;
+font-size: 2em;}

@@ -1,0 +1,36 @@
+.Container{background-color: bisque;
+    height: 550px;
+width: 550px;
+border: 3px solid black;
+margin: 5px;
+padding: 5px;
+display: flex;
+flex-wrap: nowrap;}
+
+.Container1{background-color: bisque;
+    height: 550px;
+    width: 550px;
+border: 3px solid black;
+margin: 5px;
+padding: 5px;
+display: flex;
+flex-wrap: wrap;}
+
+.Container2{background-color: bisque;
+    height: 550px;
+    width: 550px;
+border: 3px solid black;
+margin: 5px;
+padding: 5px;
+display: flex;
+flex-wrap: wrap-reverse;}
+
+.box{height: 150px;
+width: 150px;
+border: 3px solid black;
+margin: 3px;}
+
+#box1{background-color: aqua;}
+#box2{background-color: red;}
+#box3{background-color: blue;}
+#box4{background-color: yellow;}

@@ -1,0 +1,21 @@
+.img1{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    /*filter: brightness(155%);*/
+    filter: contrast(110%);
+}
+
+.img2{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+     filter: drop-shadow(20px 20px 20px blue);
+   /* filter: invert(.4);*/
+}
+
+.img3{
+    height: 300px;
+    width: 300px;
+    object-fit:cover;
+}

@@ -1,0 +1,41 @@
+body{background-color: black;}
+.animation{ height: 75px;
+    width: 75px;
+    padding: 5px;
+    margin: 70px;
+   border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+position: relative;
+top: 10px;
+left: 10px;}
+#animation1{animation-name: movel2r;
+animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-delay: 0.5s;
+animation-iteration-count: 15;
+animation-direction: alternate;
+background-color: burlywood;
+ }
+@keyframes movel2r {
+    from {left: 10px;}
+    to {left: 300px;}
+    
+ }
+
+ #animation2{background-color: aqua;
+    animation-name: rishabh;
+    animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-delay: 0.5s;
+animation-iteration-count: 5;
+animation-direction: alternate;
+}
+@keyframes rishabh {
+    0% {left: 10px; top: 0px;}
+    50%{left: 150px; top: 150px; }
+    100%{left: 300px; top: 0px;}
+}

@@ -1,0 +1,6 @@
+#nav1{background-color: rgb(238, 7, 7); height: 50px; width: 60px; border: 5px solid black;
+    padding: 5px ;
+margin:  5px;}
+#nav2{ background-color: rgb(8, 8, 8); padding: 15px; height: 50px; width: 60px; margin: 5px ; border: 10px dashed yellow; color: white;}
+    *{margin: 0;padding: 0;}
+    .pad{height: 50px;width: 50px; padding: 5px}

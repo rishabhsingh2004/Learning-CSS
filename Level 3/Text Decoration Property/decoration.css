@@ -1,0 +1,9 @@
+#h1{background-color: blue;
+text-decoration:underline;text-decoration-color: azure ;
+text-decoration-style: dashed;}
+#h2{background-color: red;
+text-decoration: line-through;}
+#h3{background-color: antiquewhite;
+text-decoration: underline;}
+#h4{background-color: aqua;text-decoration: overline;}
+a{text-decoration: none;}

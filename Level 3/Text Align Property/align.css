@@ -1,0 +1,17 @@
+.First{
+    height: 90px;
+    width: 90px; 
+background-color: red
+;text-align: left;}
+.Second{
+    height: 90px;
+    width: 90px; 
+background-color: rgb(2, 22, 241)
+;text-align: center;
+}
+.Third{
+    height: 90px;
+    width: 90px; 
+background-color:#a1ea10;
+text-align: right;
+}

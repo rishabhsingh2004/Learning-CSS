@@ -1,0 +1,12 @@
+#box{height: 100px;
+    width: 100px;
+    padding: 5px;
+    background-color:greenyellow;}
+    
+    @media  screen and (max-width : 300px){ 
+        #box{height: 200px;
+        width: 200px;
+        background-color: rgb(71, 5, 255);}
+        
+        
+    }

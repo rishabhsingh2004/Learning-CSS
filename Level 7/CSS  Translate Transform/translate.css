@@ -1,0 +1,29 @@
+.box{ height: 75px;
+    width: 75px;
+    padding: 5px;
+    margin: 70px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+position: relative;
+    top: 20px;
+left: 250px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    }
+
+    #box1{background-color: blue;}
+    #box1:hover{ transform: translate(50px);}
+    
+    #box2{background-color: chartreuse;}
+    #box2:hover{ transform: translate(50px ,50px);}
+    
+    #box3{background-color: red;}
+    #box3:hover{transform: translatex(50px);}
+
+    #box4{background-color: darkmagenta;}
+    #box4:hover{transform: translatey(50px);}

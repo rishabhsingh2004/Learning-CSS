@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(155, 155, 161);
+} 
+
+.container{
+    display: inline-block;
+ 
+   }
+
+.card{
+    border: 2px solid black;
+    margin: 59px 80px;
+    padding: 23px 12px;
+    width: 170px;
+    height: 60px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 107, 131);
+    color: rgb(0, 0, 0) 
+}
+
+
+
+        /* Concept Of Box Shadow */
+                    
+
+/* box-shadow : offset-x offset-y  color;*/
+/* box-shadow : offset-x offset-y blur-radius   color;*/
+/* box-shadow : offset-x offset-y blur-radius spread-radius  color; */     
+
+
+
+   /*  box-shadow: 7px 7px  rgb(113, 227, 0); */
+   /*  box-shadow: -8px -8px rgb(255, 11, 133); */
+   /* box-shadow: 7px 7px 46px rgb(240, 31, 12); */
+    /* box-shadow: -7px -7px 46px rgb(240, 31, 12); */
+   /* box-shadow: 8px 8px 30px 25px red; */
+ 
+/*----------------------------------------------------------------------------------   
+
+
+           /* concept Of Text Shadow */
+         
+           /* text-shadow : offset-x offset-y  color;*/
+    /* text-shadow : offset-x offset-y blur-radius   color;*/
+         
+
+          /* text-shadow: 9px 7px rgb(255, 255, 255);*/
+         /* text-shadow: 5px 5px 5px white;*/
+
+
+
+
+
+
+#card1{  
+    box-shadow: 8px 7px rgb(247, 138, 4);
+    text-shadow: 3px 4px white;
+    }
+ 
+    #card2{ 
+       box-shadow: 8px -7px rgb(112, 101, 0);
+       text-shadow: -3px -4px rgb(255, 255, 255);
+     }
+
+ #card3{
+    box-shadow: 10px 9px 43px red;
+    text-shadow: 3px 3px 2px white;
+ }
+ 
+ #card4{
+      box-shadow: 10px 9px 43px 25px yellow ;
+      text-shadow: 3px 3px 12px white;
+ }
